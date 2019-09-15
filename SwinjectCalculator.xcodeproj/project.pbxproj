@@ -30,6 +30,7 @@
 		D941054F232E8D490078326C /* ConsoleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941054E232E8D490078326C /* ConsoleLogger.swift */; };
 		D9410551232E8D670078326C /* FileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9410550232E8D670078326C /* FileLogger.swift */; };
 		D9410555232E943D0078326C /* MathematicalOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9410554232E943D0078326C /* MathematicalOperation.swift */; };
+		D9410557232EB1800078326C /* CalculatorViewModelAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9410556232EB17F0078326C /* CalculatorViewModelAssembler.swift */; };
 		FB4F0780C8D66323F1806701 /* Pods_SwinjectCalculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7164143F2184F6D261D8792 /* Pods_SwinjectCalculatorTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +88,7 @@
 		D941054E232E8D490078326C /* ConsoleLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleLogger.swift; sourceTree = "<group>"; };
 		D9410550232E8D670078326C /* FileLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileLogger.swift; sourceTree = "<group>"; };
 		D9410554232E943D0078326C /* MathematicalOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathematicalOperation.swift; sourceTree = "<group>"; };
+		D9410556232EB17F0078326C /* CalculatorViewModelAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModelAssembler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				D9410501232E819E0078326C /* AppDelegate.swift */,
+				D9410556232EB17F0078326C /* CalculatorViewModelAssembler.swift */,
 				D9410554232E943D0078326C /* MathematicalOperation.swift */,
 				D941054D232E8D290078326C /* Logger */,
 				D941054A232E8D170078326C /* Calculator */,
@@ -466,6 +469,7 @@
 				D9410547232E8C500078326C /* StandardCalculator.swift in Sources */,
 				D9410502232E819E0078326C /* AppDelegate.swift in Sources */,
 				D9410555232E943D0078326C /* MathematicalOperation.swift in Sources */,
+				D9410557232EB1800078326C /* CalculatorViewModelAssembler.swift in Sources */,
 				D941053D232E86570078326C /* CalculatorViewModelInputProcessor.swift in Sources */,
 				D9410549232E8CC80078326C /* ScientificCalculator.swift in Sources */,
 				D9410536232E82370078326C /* CalculatorViewController.swift in Sources */,

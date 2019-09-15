@@ -64,26 +64,12 @@ private extension AppDelegate {
 
 	var swinjectContainer: Container {
 		return Container() { container in
-			// Model
-			container.register(Calculator.self, factory: { _ in StandardCalculator()})
-			container.register(Logger.self, factory: { _ in ConsoleLogger() })
-
-			// ViewModel
-			container.register(CalculatorViewModel.self, factory: { r in
-				CalculatorViewModel(
-					calculator: r.resolve(Calculator.self)!,
-					logger: r.resolve(Logger.self)!
-				)
+			let calculatorViewModel = CalculatorViewModelFactory.getViewModel()
+			container.register(CalculatorViewModeInputProcessor.self, factory: { _ in
+				calculatorViewModel
 			})
-
-			// Views
-			// CalculatorViewModeInputProcessor
-			container.register(CalculatorViewModeInputProcessor.self, factory: { r in
-				r.resolve(CalculatorViewModel.self)!
-			})
-			// Presenter
-			container.register(CalculatorViewControllerPresenter.self, factory: { r in
-				CalculatorViewControllerPresenter(viewModelOutputs: r.resolve(CalculatorViewModel.self)!.outputs)
+			container.register(CalculatorViewControllerPresenter.self, factory: { _ in
+				CalculatorViewControllerPresenter(viewModelOutputs: calculatorViewModel.outputs)
 			})
 			container.storyboardInitCompleted(UINavigationController.self) { _,_ in }
 			container.storyboardInitCompleted(CalculatorViewController.self) { r, vc in
