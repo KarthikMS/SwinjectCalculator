@@ -1,5 +1,5 @@
 //
-//  ViewModelOutputs.swift
+//  CalculatorViewModelOutputs.swift
 //  SwinjectCalculator
 //
 //  Created by Karthik M S on 15/09/19.
@@ -8,7 +8,7 @@
 
 import RxSwift
 
-struct ViewModelOutputs {
+struct CalculatorViewModelOutputs {
 	let labelStringStream = BehaviorSubject<String>(value: "0")
 	let isOperatorEnabledStream = BehaviorSubject<Bool>(value: false)
 	let equalToButtonIsEnabledStream = BehaviorSubject<Bool>(value: false)

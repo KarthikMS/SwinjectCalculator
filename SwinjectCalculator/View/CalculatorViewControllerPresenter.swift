@@ -21,7 +21,7 @@ class CalculatorViewControllerPresenter {
 	let numberButtonsAreEnabledDriver: Driver<Bool>
 
 	// MARK: - Initializers
-	init(viewModelOutputs: ViewModelOutputs) {
+	init(viewModelOutputs: CalculatorViewModelOutputs) {
 		self.labelDriver = viewModelOutputs.labelStringStream
 			.asDriver(onErrorJustReturn: "0")
 		

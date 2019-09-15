@@ -22,7 +22,7 @@
 		D941053D232E86570078326C /* CalculatorViewModelInputProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941053C232E86570078326C /* CalculatorViewModelInputProcessor.swift */; };
 		D941053F232E86E30078326C /* CalculatorViewModelInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941053E232E86E30078326C /* CalculatorViewModelInput.swift */; };
 		D9410541232E882B0078326C /* CalculatorViewControllerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9410540232E882B0078326C /* CalculatorViewControllerPresenter.swift */; };
-		D9410543232E887A0078326C /* ViewModelOutputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9410542232E887A0078326C /* ViewModelOutputs.swift */; };
+		D9410543232E887A0078326C /* CalculatorViewModelOutputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9410542232E887A0078326C /* CalculatorViewModelOutputs.swift */; };
 		D9410545232E8C070078326C /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9410544232E8C070078326C /* Calculator.swift */; };
 		D9410547232E8C500078326C /* StandardCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9410546232E8C500078326C /* StandardCalculator.swift */; };
 		D9410549232E8CC80078326C /* ScientificCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9410548232E8CC80078326C /* ScientificCalculator.swift */; };
@@ -79,7 +79,7 @@
 		D941053C232E86570078326C /* CalculatorViewModelInputProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModelInputProcessor.swift; sourceTree = "<group>"; };
 		D941053E232E86E30078326C /* CalculatorViewModelInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModelInput.swift; sourceTree = "<group>"; };
 		D9410540232E882B0078326C /* CalculatorViewControllerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewControllerPresenter.swift; sourceTree = "<group>"; };
-		D9410542232E887A0078326C /* ViewModelOutputs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelOutputs.swift; sourceTree = "<group>"; };
+		D9410542232E887A0078326C /* CalculatorViewModelOutputs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModelOutputs.swift; sourceTree = "<group>"; };
 		D9410544232E8C070078326C /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		D9410546232E8C500078326C /* StandardCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardCalculator.swift; sourceTree = "<group>"; };
 		D9410548232E8CC80078326C /* ScientificCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScientificCalculator.swift; sourceTree = "<group>"; };
@@ -214,7 +214,7 @@
 				D9410538232E860A0078326C /* CalculatorViewModel.swift */,
 				D941053C232E86570078326C /* CalculatorViewModelInputProcessor.swift */,
 				D941053E232E86E30078326C /* CalculatorViewModelInput.swift */,
-				D9410542232E887A0078326C /* ViewModelOutputs.swift */,
+				D9410542232E887A0078326C /* CalculatorViewModelOutputs.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -462,7 +462,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9410541232E882B0078326C /* CalculatorViewControllerPresenter.swift in Sources */,
-				D9410543232E887A0078326C /* ViewModelOutputs.swift in Sources */,
+				D9410543232E887A0078326C /* CalculatorViewModelOutputs.swift in Sources */,
 				D9410547232E8C500078326C /* StandardCalculator.swift in Sources */,
 				D9410502232E819E0078326C /* AppDelegate.swift in Sources */,
 				D9410555232E943D0078326C /* MathematicalOperation.swift in Sources */,

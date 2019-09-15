@@ -14,7 +14,7 @@ class CalculatorViewModel {
 	private let logger: Logger
 
 	// MARK: - Properties
-	let outputs = ViewModelOutputs()
+	let outputs = CalculatorViewModelOutputs()
 
 	var n1: Float?
 	var n2: Float?
