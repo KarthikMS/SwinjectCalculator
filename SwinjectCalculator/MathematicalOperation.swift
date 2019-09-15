@@ -1,0 +1,16 @@
+//
+//  MathematicalOperation.swift
+//  SwinjectCalculator
+//
+//  Created by Karthik M S on 15/09/19.
+//  Copyright © 2019 MSK. All rights reserved.
+//
+
+import Foundation
+
+enum MathematicalOperation {
+	case addition
+	case subtraction
+	case multiplication
+	case division
+}
